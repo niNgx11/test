@@ -1,7 +1,2 @@
-import os
-from subprocess import call
-
-print(os.getcwd())
-print(os.getuid())
-
-print(os.getenv("PATH"))
+for x in xrange(1,10):
+	print(x+": Hello world")
